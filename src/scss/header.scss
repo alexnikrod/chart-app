@@ -1,0 +1,19 @@
+@import "variables";
+
+.header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 12;
+
+  &__icon {
+    width: 60px;
+    height: 60px;
+
+    .material-icons {
+      font-size: $largeIconsSize;
+      cursor: pointer;
+    }
+  }
+}
